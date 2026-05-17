@@ -19,28 +19,28 @@ export default {
 
       video_pairs: [
         {
-          source: './real_world_tasks/ur/push_button.mp4',
-          target: './real_world_tasks/franka/IMG_5848_30s.mp4',
+          source: './sim_tasks/phone_on_base_sawyer.mp4',
+          target: './sim_tasks/phone_on_base_franka.mp4',
         },
         {
-          source: './real_world_tasks/ur/take_lid_off_saucepan.mp4',
-          target: './real_world_tasks/franka/IMG_5849_30s.mp4',
+          source: './sim_tasks/pick_up_cup_sawyer.mp4',
+          target: './sim_tasks/pick_up_cup_franka.mp4',
         },
         {
-          source: './real_world_tasks/ur/pick_up_cup.mp4',
-          target: './real_world_tasks/franka/IMG_5850_30s.mp4',
+          source: './sim_tasks/put_rubbish_in_bin_sawyer.mp4',
+          target: './sim_tasks/put_rubbish_in_bin_franka.mp4',
         },
         {
-          source: './real_world_tasks/ur/take_off_weighing_scales.mp4',
-          target: './real_world_tasks/franka/IMG_5852_30s.mp4',
+          source: './sim_tasks/slide_block_to_target_sawyer.mp4',
+          target: './sim_tasks/slide_block_to_target_franka.mp4',
         },
         {
-          source: './real_world_tasks/ur/pick_and_lift.mp4',
-          target: './real_world_tasks/franka/IMG_5854_30s.mp4',
+          source: './sim_tasks/pick_and_lift_sawyer.mp4',
+          target: './sim_tasks/pick_and_lift_franka.mp4',
         },
         {
-          source: './real_world_tasks/ur/camera_front_30s.mp4',
-          target: './real_world_tasks/franka/IMG_5855_30s.mp4',
+          source: './sim_tasks/basketball_in_hoop_sawyer.mp4',
+          target: './sim_tasks/basketball_in_hoop_franka.mp4',
         },
       ],
     }
@@ -63,7 +63,7 @@ export default {
     <el-divider />
 
     <el-row justify="center">
-      <h1 class="section-title">Real-world Tasks</h1>
+      <h1 class="section-title">Simulation Tasks</h1>
     </el-row>
 
     <el-row justify="center">

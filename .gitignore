@@ -27,3 +27,5 @@ coverage
 *.sln
 *.sw?
 yarn.lock
+dist/
+backup_videos/
