@@ -100,7 +100,7 @@ const buttons = [
   {
     disabled: false,
     name: "Code",
-    link: "#",
+    link: "https://github.com/banban3forever/Demo-JEPA",
     component: Files,
   },
 ]

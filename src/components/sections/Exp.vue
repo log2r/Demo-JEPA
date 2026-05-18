@@ -202,7 +202,7 @@ const isBest = (row: ResultRow, key: MetricKey, data: ResultRow[]) => {
             More details can be found in our
             <a href="#" target="_blank">paper</a>
             and
-            <a href="#" target="_blank">code</a>.
+            <a href="https://github.com/banban3forever/Demo-JEPA" target="_blank">code</a>.
           </p>
         </div>
       </el-col>
