@@ -3,8 +3,15 @@ export default {
   data() {
     return {
       bibtex: [
-        "Gugugaga",
-        "Gugugaga",
+        "@misc{he2026demojepajointembeddingpredictivearchitecture,",
+        "  title={Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation},",
+        "  author={Jingyang He and Guangrun Li and Jieyu Zhang and Chengkai Hou and Zhengping Che and Shanghang Zhang},",
+        "  year={2026},",
+        "  eprint={2605.20811},",
+        "  archivePrefix={arXiv},",
+        "  primaryClass={cs.RO},",
+        "  url={https://arxiv.org/abs/2605.20811},",
+        "}",
       ],
     }
   },
@@ -21,33 +28,33 @@ export default {
     }
   }
 }
-
 </script>
 
 <template>
   <div>
     <el-divider />
       
-      <el-row justify="center">
-        <h1 class="section-title">BibTeX</h1>
-      </el-row>
+    <el-row justify="center">
+      <h1 class="section-title">BibTeX</h1>
+    </el-row>
       
-      <el-row justify="center">
-        <el-col class='bibtex' :xs="24" :sm="20" :md="14" :lg="12" :xl="12" @click="copyVal()" >
-          <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">🖱️ Click here to copy BibTex.</div> 
-          <el-row>
-              <el-scrollbar style="margin: 0px 20px 5px 20px;">
-                <pre id="bibtex"><code v-for="b in bibtex">{{ b }}<br/></code></pre>
-              </el-scrollbar>
-          </el-row>
-        </el-col>
-      </el-row>
+    <el-row justify="center">
+      <el-col class="bibtex" :xs="24" :sm="20" :md="14" :lg="12" :xl="12" @click="copyVal()">
+        <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">
+          🖱️ Click here to copy BibTeX.
+        </div> 
 
+        <el-row>
+          <el-scrollbar style="margin: 0px 20px 5px 20px;">
+            <pre id="bibtex"><code v-for="b in bibtex" :key="b">{{ b }}<br /></code></pre>
+          </el-scrollbar>
+        </el-row>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
 <style scoped>
-
 .scrollbar-flex-content {
   display: flex;
 }
@@ -66,7 +73,7 @@ export default {
 }
 
 /* 卡片点击 */
-.bibtex:active{
+.bibtex:active {
   box-shadow: var(--el-box-shadow-lighter); 
 }
 
@@ -81,7 +88,4 @@ pre code {
   font-size: 18px;
   background: #ffffff;
 }
-
-
-
 </style>

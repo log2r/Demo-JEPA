@@ -94,7 +94,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "#",
+    link: "https://arxiv.org/pdf/2605.20811",
     component: Document,
   },
   {
